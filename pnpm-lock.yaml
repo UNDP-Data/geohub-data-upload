@@ -1,6 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
+  '@arkweid/lefthook': ^0.7.7
   '@fortawesome/free-solid-svg-icons': ^6.2.1
   '@sveltejs/adapter-auto': next
   '@sveltejs/kit': next
@@ -27,6 +28,7 @@ specifiers:
   vite: ^3.1.0
 
 dependencies:
+  '@arkweid/lefthook': 0.7.7
   '@fortawesome/free-solid-svg-icons': 6.2.1
   bulma: 0.9.4
   bulma-o-steps: 1.1.0
@@ -55,6 +57,15 @@ devDependencies:
   vite: 3.2.4_sass@1.56.1
 
 packages:
+
+  /@arkweid/lefthook/0.7.7:
+    resolution: {integrity: sha512-Eq30OXKmjxIAIsTtbX2fcF3SNZIXS8yry1u8yty7PQFYRctx04rVlhOJCEB2UmfTh8T2vrOMC9IHHUvvo5zbaQ==}
+    cpu: [x64, arm64, ia32]
+    os: [darwin, linux, win32]
+    deprecated: '@arkweid/lefthook has been renamed to @evilmartians/lefthook, please upgrade to it. You also can use @evilmartians/lefthook-installer'
+    hasBin: true
+    requiresBuild: true
+    dev: false
 
   /@esbuild/android-arm/0.15.14:
     resolution: {integrity: sha512-+Rb20XXxRGisNu2WmNKk+scpanb7nL5yhuI1KR9wQFiC43ddPj/V1fmNyzlFC9bKiG4mYzxW7egtoHVcynr+OA==}

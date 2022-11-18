@@ -1,0 +1,20 @@
+# EXAMPLE USAGE
+# Refer for explanation to following link:
+# https://github.com/evilmartians/lefthook/blob/master/docs/full_guide.md
+#
+pre-push:
+  parallel: true
+  commands:
+    build:
+      tags: build
+      run: pnpm build
+
+pre-commit:
+  # parallel: true
+  commands:
+    1_lint:
+      tags: lint
+      run: pnpm lint
+    2_format:
+      tags: prettier
+      run: pnpm format
